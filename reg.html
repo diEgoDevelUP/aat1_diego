@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+
+<body>
+    <table>
+        <tr style="text-align: center;">
+            <td width="800" height="30" style="background-color: yellow;"><a href="index.html"
+                    style="color: white; text-decoration: none; font-size: 30px;">Inicio</a></td>
+            <td width="800" height="30" style="background-color: skyblue;"><a href="tienda.html"
+                    style="color: white; text-decoration: none;  font-size: 30px;">Tienda</a>
+            </td>
+            <td width="800" height="30" style="background-color: blue;"><a href="producto.html"
+                    style="color: white; text-decoration: none; font-size: 30px;">Productos\Servicios</a></td>
+        </tr>
+    </table>
+    <h1 style="text-align: center;">Registrarse</h1>
+    <fieldset style="width: 300px; margin: 0px auto; padding: 20px;border: 0;">
+        <form>
+            <p>
+                <label style="font-size: 20px;" for="txt_name">Nombre de Usuario:</label>
+                <br>
+                <input style="font-size: 30px;" type="text" name="txt_name" size="100">
+            </p>
+            <p>
+                <label style="font-size: 20px;" for="contrasena">Contraseña:</label>
+                <br>
+                <input style="font-size: 30px;" type="password" id="contrasena" name="contrasena" size="100">
+            </p>
+            <p>
+                <label style="font-size: 20px;" for="pass">Contraseña:</label>
+                <br>
+                <input style="font-size: 30px;" type="password" id="pass" name="pass" size="100">
+            </p>
+            <p>
+                <label style="font-size: 20px;" for="txt_apellidos">Nombre(s):</label>
+                <br>
+                <input style="font-size: 30px;" type="text" name="txt_apellidos" size="100">
+            </p>
+            <p>
+                <label style="font-size: 20px;" for="txt_apellidos">Apellido(s):></label>
+                <br>
+                <input style="font-size: 30px;" type="text" name="txt_apellidos" size="100">
+            </p>
+            <p>
+                <label style="font-size: 20px;" for="correo">Correo electrónico:</label>
+                <br>
+                <input style="font-size: 30px;" type="email" id="correo" name="correo" required size="100">
+            </p>
+            </p>
+            <p style="font-size: 20px;">
+                Sexo:
+                <input type="radio" value="H" name="opt_genero" id="opt_genero_h">
+                <label for="">Hombre</label>
+                <input type="radio" value="M" name="opt_genero" id="opt_genero_m">
+                <label for="">Mujer</label>
+                <label for="" style="margin-left: 50em;">Fecha de Nacimiento</label>
+                <input type="date">
+            </p>
+            <p style="font-size: 20px;">
+                <label for="lst_nac">Nacionalidad:</label>
+                <select name="lst_nac" id="lst_nac">
+                    <option value="1">Guatemalteca</option>
+                    <option value="2">Mexicana</option>
+                    <option value="3">Canadiense</option>
+                    <option value="4">Española</option>
+                    <option value="5">Rusa</option>
+                    <option value="5">Estadounidense</option>
+                </select>
+            </p>
+            <p style="text-align: center;">
+                <button style="font-size: 20px;" type="submit">Registrarse</button>
+            </p>
+            <br>
+        </form>
+    </fieldset>
+    <footer>
+        <table style="background-color: black;">
+            <tr>
+                <td width="1000" style="color: white;">PBX:5664-5845 Direccion:Callejón del Sol Naciente, 13</td>
+                <td style="text-align: right; color: white;" width="1000" height="75">Carnet:2024-007440
+                    Nombre:Diego
+                    Antonio Lopez
+                    Sagastume</td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
+</html>
